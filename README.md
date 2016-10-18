@@ -1,7 +1,8 @@
 # lod-over-ipfs
 
 A toy implementation of a migration tool of LOD datasets to IPFS.
-**This is a just a toy example, not a final proposal**
+
+**NOTE: this is a just a proof-of-concept example, not a final proposal**
 
 ## Overview
 
@@ -22,7 +23,7 @@ You need to have access to an IPFS client. The current implementation has been t
 
 ## Example
 
-The example migrates the [UK Ordnance Survey gazeteer dataset](). You can try with other similarly described datasets by changing the ```uk-gazetteer2ipfs.py
+The example migrates the [UK Ordnance Survey 50K Gazetteer dataset](http://data.ordnancesurvey.co.uk/datasets/50k-gazetteer). You can try with other similarly described datasets by changing the ```uk-gazetteer2ipfs.py
 ``` script, and changing other options by modifying the example code (command line options to come maybe in the future).
 
 For example, you can customize the dataset by changing the following lines:
